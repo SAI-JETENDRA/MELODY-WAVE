@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - MelodyWave</title>
+    <link rel="icon" href="mw.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="mw.jpg" alt="MelodyWave"> MelodyWave</li>
+            <a href="tolly.html"><li>Tollywood</li></a>
+            <a href="holly.html"><li>Bollywood</li></a>
+            <a href="about.html"><li>About</li></a>
+            <li id="abt"></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Button to go back to the main page -->
+        <div class="goBack">
+            <a href="index.html" class="goBackButton">Go Back to Main Page</a>
+        </div>
+
+        <div class="aboutSection">
+            <h1>About MelodyWave</h1>
+            <p>Welcome to MelodyWave, your go-to destination for discovering and enjoying your favorite music! We offer a diverse collection of songs across various genres, including Tollywood and Bollywood hits.</p>
+            <p>Our mission is to bring you closer to the music you love. Whether you're looking for the latest chart-toppers or timeless classics, MelodyWave has something for everyone.</p>
+            <p>Here are some of the features you'll find on MelodyWave:</p>
+            <ul>
+                <li><strong>Curated Song Lists:</strong> Explore handpicked songs from Tollywood and Bollywood.</li>
+                <li><strong>User-Friendly Interface:</strong> Easily navigate through our collection with a sleek and intuitive design.</li>
+                <li><strong>High-Quality Music:</strong> Enjoy high-quality audio tracks that enhance your listening experience.</li>
+            </ul>
+            <p>Thank you for visiting MelodyWave. We hope you enjoy your musical journey with us!</p>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Sada siva</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
