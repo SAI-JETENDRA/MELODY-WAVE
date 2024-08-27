@@ -1,15 +1,13 @@
-console.log("Welcome to MelodyWave");
-
 // Initialize the Variables
-let songIndex = 0;
-let audioElement = new Audio('./songs/1.mp3');
-let masterPlay = document.getElementById('masterPlay');
-let myProgressBar = document.getElementById('myProgressBar');
-let gif = document.getElementById('gif');
-let masterSongName = document.getElementById('masterSongName');
-let songItems = Array.from(document.getElementsByClassName('songItem'));
+var songIndex = 0;
+var audioElement = new Audio('./songs/1.mp3');
+var masterPlay = document.getElementById('masterPlay');
+var myProgressBar = document.getElementById('myProgressBar');
+var gif = document.getElementById('gif');
+var masterSongName = document.getElementById('masterSongName');
+var songItems = Array.from(document.getElementsByClassName('songItem'));
 
-let songs = [
+var songs = [
    
     {songName: "Rabba - Salam-e-Ishq", filePath: "songs/6.mp3", coverPath: "yerabba.jpg"},
     {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/7.mp3", coverPath: "yerabba1.jpg"},

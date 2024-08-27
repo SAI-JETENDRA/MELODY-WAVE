@@ -2,7 +2,7 @@ console.log("Welcome to MelodyWave");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('./songs/1.mp3');
+let audioElement = new Audio("songs/1.mp3");
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Sada Siva", filePath: "song/1.mp3", coverPath: "1.jpg"},
+    {songName: "Sada Siva", filePath: "songs/1.mp3", coverPath: "1.jpg"},
     {songName: "Netho Cheppana", filePath: "songs/2.mp3", coverPath: "Athadu.jpg"},
     {songName: "Le Padha Padhaa", filePath: "songs/3.mp3", coverPath: "msd.jpg"},
     {songName: "Ninnu Korri", filePath: "songs/4.mp3", coverPath: "NinnuKorri.jpg"},
